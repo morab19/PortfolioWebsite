@@ -21,9 +21,15 @@ function Home() {
         </h2>
         <div className="prompt">
           <p>A software developer with a passion for learning and creating.</p>
-          <LinkedInIcon />
-          <EmailIcon />
-          <GithubIcon />
+          <a href="https://www.linkedin.com/in/bryan-mora-a5bb1323a/" target="_blank">
+            <LinkedInIcon/>
+          </a>
+          <a href = "mailto:smithmora.bryan@gmail.com?Subject=" target="_blank">
+            <EmailIcon />
+          </a>
+          <a href="https://github.com/morab19" target="_blank">
+            <GithubIcon />
+          </a>
         </div>
       </div>
       <div className="skills">
@@ -45,7 +51,7 @@ function Home() {
           </li>
           <li className="item">
             <h2>Languages</h2>
-            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Go</span>
+            <span>JavaScript, Java, Python, C#, C, C++, TypeScript, Kotlin, C#</span>
           </li>
         </ol>
       </div>
